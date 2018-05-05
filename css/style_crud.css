@@ -1,0 +1,196 @@
+
+@media screen and (max-width: 1700px) and (min-width:900px){
+	.container{
+	width:100%;
+	display:inline-block;
+	}
+	.subcontainer{		
+		margin:auto;
+		margin-top:1%;
+		display:flex;
+		width:45%;
+	}
+	.divDesign {
+		width:50%;
+		float : left;
+	}
+	
+	.divPPS{
+		width:50%;
+		float : left;
+		
+	}
+	.Readbtn{				
+		margin-top:1%;
+		position: relative;
+		left: 45%;
+	}
+	
+	input{
+		height:42px;
+	}
+	
+	 td, th
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:7px;
+            font:12px Verdana;
+			color:#c5c5c5;
+        }
+        th {
+            font-weight:bold;
+			font-size:18px;
+        }
+		table{
+			width:80%;
+			margin:10px 0;
+		}
+		.cmp
+		{
+			display:none;
+		}
+}
+@media screen and (min-width:320px) and (max-width: 800px)
+{
+	.container{
+	display:inline-block;	
+	height:100%;
+	max-width: 100%;
+	}
+	.subcontainer{		
+		margin:auto;
+		margin-top:1%;
+		display:inline-block;
+		padding:15px;
+		
+	}
+	.divDesign {
+		display: inline-block;
+		width:100%;
+		margin-top:10px;
+	}
+	
+	.divPPS{
+		display: inline-block;
+		width:100%;		
+		margin-top:10px;
+	}
+	.Readbtn{				
+		margin-top:1%;
+		padding:10px;
+		position:relative;
+	}
+	body { 
+      font-size: 16px; 
+   }
+	input {
+		width: 100%;
+		font-size:16px;
+	}
+	
+	 td, th
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:7px;
+            font:14px Verdana;
+			color:#ececec;
+        }
+        th {
+            font-weight:bold;
+			font-size:16px;
+        }
+		table{
+			width:100%;
+			margin:10px 0;
+		}
+		.cmp{
+		position: relative;
+		left: 40%;
+		top: -42px;
+		font-size: 15px;
+		display:none;
+	}
+		
+}
+
+
+
+		
+#loader {
+    left: 35%;
+	top: 2%;
+}
+
+
+		
+		
+#search {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#search:focus {
+    width: 100%;
+}
+.edit{
+    color: blue;
+}
+.edit:hover,.delete:hover{
+    color: black;
+}
+
+.delete{
+    color: red;
+}
+.textalign{
+text-align:right;
+}
+.showData{
+visibility:hidden;
+}
+
+div.showData{
+ margin:18px;
+ font-size:14px;
+ 
+}
+#FinalPrice_1{
+font-size:24px;
+font-family: 'Muli', sans-serif;
+color: #FFF;
+}
+
+.inptxt{
+	text-align:center;
+}
+
+
+.footer{
+color:blue;
+}
+.footer:hover{
+text-decoration:underline;
+}
+
+
+input.btn{
+		font-size: 22px;
+		line-height:40px;
+		color: #FFF;
+		background-color: #c18fd6;
+		border: 1px solid #f5ddff;
+}
+
+#loader{
+display:none;
+}
+div.showData > span{
+color:#dc8f8f;
+}
+
+
+
