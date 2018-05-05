@@ -4,8 +4,10 @@
    <script type="text/javascript">
      function initGeolocation()
      {
+		wc('in > ');
         if( navigator.geolocation )
         {
+			wc('\n if >');
            // Call getCurrentPosition with success and failure callbacks
            navigator.geolocation.getCurrentPosition( success, fail );
         }
@@ -27,21 +29,27 @@
 
      function success(position)
      {
-
+wc('\n success >');
          document.getElementById('long').value = position.coords.longitude;
          document.getElementById('lat').value = position.coords.latitude
      }
 
      function fail()
      {
+	 wc('\n fail here >	');
         // Could not obtain location
      }
+	 
+	 function wc(data){
+		document.getElementById('console').innerHTML = document.getElementById('console').innerHTML + data;
+	 }
 
    </script>    
  </head>
 
  <body onLoad="initGeolocation();">
    <FORM NAME="rd" METHOD="POST" ACTION="index.html">
+   <span id='console'></span>
      <INPUT TYPE="text" NAME="long" ID="long" VALUE="">
      <INPUT TYPE="text" NAME="lat" ID="lat" VALUE="">
  </body>
