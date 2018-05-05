@@ -156,7 +156,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
 		
-		<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+		<plugin name="cordova-plugin-geolocation" value="org.apache.cordova.GeoBroker" />
 		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
