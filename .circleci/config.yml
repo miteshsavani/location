@@ -8,8 +8,8 @@ jobs:
       - run: mkdir mitesh
   test:
     docker:
-      - image: circleci/<language>:<version TAG>
+      - image: circleci/node:8-browsers
     steps:
       - checkout
-      - run: mkdir mitesh
+      - run: mkdir Savani
       
